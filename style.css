@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(44,62,80 ,1);
+    margin: 30px;
+}
+
+.iphone{
+    position: relative;  
+    width: 350px;
+    height: 700px;
+    margin: 0px auto;
+
+  }
+  .phone{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 350px;
+    height: 700px;
+    border-radius: 50px;
+    border: 10px solid rgb(16, 15, 15);
+    box-shadow:  -2px -2px 2px gold;
+  }
+  
+.top-phone, .bottom-phone{
+    position: absolute;
+    height: 83px;
+    width: 100%;
+    background: rgb(2, 2, 2);
+    box-shadow:  0px 1px 1px rgb(63, 63, 63);
+   }
+  .top-phone{
+    top: 0px;
+    border-radius: 40px 40px 0px 0px;
+    overflow: hidden;
+  }
+
+  .camera {
+    position: absolute;
+    bottom: 50px;
+    left: 41%;
+    width: 70px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgb(44,62,80 ,1);
+  }
+
+  .speaker {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgb(44,62,80 ,1);
+
+  }
+
+  .sensonr {
+
+    position: absolute;
+    bottom: 50px;
+    left: 34%;
+    width: 13px;
+    height: 13px;
+    background-color: black;
+    border-radius: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-color: rgb(44,62,80 ,1);
+
+  }
+
+  .bottom-phone{
+    bottom: 0px;
+    border-radius: 0px 0px 40px 40px;
+  }
+
+.home-button {
+
+position: absolute;
+bottom: 15px;
+left: 45%;
+width: 40px;
+height: 40px;
+background-color: black;
+border-radius: 50%;
+border: 1px solid gold;
+box-sizing: border-box;
+}
